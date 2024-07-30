@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EMPLOYEE REGISTRATION FORM</title>
+</head>
+<body>
+    <h1 style="color: rgb(29, 26, 27);">Employee Registration Form</h1>
+    <form>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName"><br><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" placeholder="dd-mm-yyyy"><br><br>
+
+        <label for="designation">Designation:</label>
+        <input type="text" id="designation" name="designation"><br><br>
+
+        <label for="department">Department:</label>
+        <select id="department" name="department">
+            <option value="select">Select Department</option>
+            <option value="select">MACHINE LEARING</option>
+            <option value="select">CSE</option>
+            <option value="select">IT</option>
+            <option value="select">CYBER SECURITY</option>
+            <option value="select">AI</option>
+            <!-- Add more options as needed -->
+        </select><br><br>
+
+        <label for="salary">Salary:</label>
+        <input type="text" id="salary" name="salary"><br><br>
+
+        <label for="mobile number">Mobile Number:</label>
+        <input type="number" id="mobile number" name="mobile number"><br><br>
+
+        <fieldset>
+            <legend>Address</legend>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="country">Country</option>
+                <!-- Add more options as needed -->
+            </select><br><br>
+
+            <label for="Door No">Door No:</label>
+            <input type="text" id="Door No" name="Door No"><br><br>
+
+            <label for="area">Area:</label>
+            <input type="text" id="area" name="area"><br><br>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city"><br><br>
+
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state"><br><br>
+
+            <label for="Pincode">Pincode:</label>
+            <input type="text" id="Pincode" name="Pincode"><br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
